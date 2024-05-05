@@ -1,0 +1,31 @@
+.main-footer{
+    background-color: #eaeaea;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 12px;
+    color: gray;
+}
+.about{
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+.links{
+    display: flex;
+}
+.links div{
+ width: 400px;
+ padding-top: 50px;
+}
+#Copyright{
+   font-size: 12px;
+   color: gray;
+   padding-top: 12px;
+}
+.footer div p{
+    padding: 10px 20px;
+}
+.footer div{
+    display: flex;
+    border-top: 1px solid gray;
+}

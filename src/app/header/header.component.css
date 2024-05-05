@@ -1,0 +1,88 @@
+.navbar {
+    background-color: rgb(255, 251, 251);
+    color: rgb(45, 45, 45);
+    height: 45px;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}
+
+#change-color {
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.logo {
+    width: 50px;
+    margin-left: 40px;
+}
+
+.fa-apple {
+    font-size: 18px;
+    color: black;
+}
+
+.dropdown-menu.full-width {
+    left: -100px;
+    right: auto;
+    width: 90vw;
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
+    display: none;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+    background-color: #fff;
+    border: 1px solid rgba(116, 116, 116, 0.15);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}
+.dropdown,
+.dropleft,
+.dropright,
+.dropup {
+    position: static;
+}
+.sublinks{
+    display: flex;
+}
+.extra{
+    width: 400px;
+}
+#first-row{
+    padding-left: 200px;
+    padding-top: 10px;
+}
+#first-row p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.sublinks .col{
+    padding: 10px;
+}
+.sublinks h6{
+    color: gray;
+}
+.renav-links{
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.firstone{
+    color: gray;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
